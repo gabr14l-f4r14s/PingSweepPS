@@ -34,6 +34,7 @@ Ela permite ao usuário selecionar redes de **Classe A, B ou C**, gerar automati
 #Digite a base do IP conforme a classe selecionada.
 #Visualize os IPs ativos listados no console.
 ```
+---
 
 ## Exemplo de execução
 ```powershell
@@ -51,10 +52,16 @@ Iniciando varredura...
 192.168.1.15 ativo
 ```
 
-## Requisitos:
--Windows com PowerShell (preferencialmente 5.1 ou superior).
--Permissões para executar scripts no PowerShell (pode ser necessário ajustar ExecutionPolicy):
+---
 
-## Observações:
--Varreduras em Classe A ou B podem demorar bastante dependendo do tamanho da rede.
--Essa ferramenta é destinada a uso legítimo em redes próprias ou com permissão do administrador.
+## Requisitos
+
+- Windows com PowerShell (preferencialmente 5.1 ou superior).
+- Permissões para executar scripts no PowerShell (pode ser necessário ajustar ExecutionPolicy):
+
+---
+
+## Observações
+
+- Varreduras em Classe A ou B podem demorar bastante dependendo do tamanho da rede.
+- Essa ferramenta é destinada a uso legítimo em redes próprias ou com permissão do administrador.
